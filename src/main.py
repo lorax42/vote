@@ -36,7 +36,7 @@ def hashJSON(candidates) -> str:
     return h.hexdigest()
 
 def writeHash(hash):
-    with open("files/hash_sum","w") as hashFile:
+    with open("files/sha256sum.txt","w") as hashFile:
         hashFile.write(hash)
 
 def main():
